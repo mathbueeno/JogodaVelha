@@ -16,5 +16,20 @@ namespace JogodaVelha
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void sobreToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Realizado por Matheus", "Sobre Jogo da Velha");
+        }
     }
 }
